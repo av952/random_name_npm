@@ -1,17 +1,24 @@
 {
   "name": "av-random-name",
   "version": "1.0.0",
-  "description": "",
+  "description": "Practica para el desarrollo de paquetes con npm",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bin":{
-    "random-msg": "./bin/global.js"
+  "author": "Alejandro V",
+  "license": "MIT",
+  "bin": {
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true 
-  
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/av952/random_name_npm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/av952/random_name_npm/issues"
+  },
+  "homepage": "https://github.com/av952/random_name_npm#readme"
 }
